@@ -1,5 +1,7 @@
 capitales = {}
 capitales["Colombia"] = "Bogota"
 capitales["Mexico"] = "Ciudad de Mexico"
+capitales["Estados Unidos"] = "Washington"
 
-puts capitales
+
+puts capitales.has_value? "Bogota"
